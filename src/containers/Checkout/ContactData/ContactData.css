@@ -1,0 +1,29 @@
+.ContactData {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 4px 6px black;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Input {
+    display: block;
+    color: black;
+    padding: 5px;
+    margin: 3px;
+}
+
+@media (min-width: 600px) {
+    .ContactData {
+        width: 500px;
+    }
+}
+
+/* .ContactData:hover {
+    background-color: salmon;
+   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0); 
+    border-radius: 120px / 250px;
+} */
